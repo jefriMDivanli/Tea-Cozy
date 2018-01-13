@@ -45,6 +45,10 @@ body {
   padding-right: 15px;
 }
 
+.header a {
+  color: seashell;
+}
+
 /* General Column */
 
 .column {
@@ -143,6 +147,7 @@ body {
   align-items: center;
   width: 100%;
   height: 300px;
+  flex-wrap: wrap;
 }
 
 .address-box .downtown h4 {
@@ -171,7 +176,8 @@ body {
 /* contact */
 
 .column-contact {
-  display: inline-flex;
+  display: flex;
+  flex-shrink: 1;
   justify-content: center;
   height: 200px;
   width: 980;
@@ -187,4 +193,5 @@ body {
   width: 100%;
   text-align: left;
   margin-left: 20px;
+  font-size: 15px;
 }
